@@ -16,9 +16,9 @@ namespace MyLib
         static void Main(string[] args)
         {
             //TestLesson6();
-            context.Database.Migrate();
-            SeedCategory();
-            SeedProduct();
+            //context.Database.Migrate();
+            //SeedCategory();
+            //SeedProduct();
 
             ICategoryRepository repository =
                 new CategoryRepository(context);
